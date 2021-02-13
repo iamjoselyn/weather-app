@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="app-wrap">
+        <header>
+            <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city ...">
+        </header>
+        <main>
+            <section class="location">
+                <div class="city">Northamptom, GB</div>
+                <div class="date">Thursday 10 January 2020</div>
+            </section>
+            <div class="current">
+                <div class="temp">15<span>º</span></div>
+                <img id="imagen" src="https://openweathermap.org/img/wn/02n@2x.png" alt="icon">
+                <div class="weather-text">Sunny</div>
+                <div class="feels-like">Feels like <span class="feels-like-deg">20º</span></div>
+                <div class="hi-low">
+                    <div>
+                        <span class="opacity">Wind</span>
+                        <span id="wind">10 m/s</span>
+                    </div>
+                    <div>
+                        <span class="opacity">Humidt</span>
+                        <span id="humidt">40 %</span>
+                    </div>
+                    <div>
+                        <span class="opacity">High</span>
+                        <span id="high">15º</span>
+                    </div>
+                    <div>
+                        <span class="opacity">Low</span>
+                        <span id="low">7º</span>
+                    </div>
+                </div>    
+            </div>
+        </main>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
